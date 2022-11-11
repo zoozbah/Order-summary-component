@@ -11,7 +11,6 @@ body{
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    background-image: url(images/pattern-background-desktop.svg);
     min-height: 100vh;
     font-family: 'Outfit', sans-serif;}
 .container{
@@ -87,18 +86,6 @@ ul{
 }
 
 
-p{
-
-    color: hsl(225, 100%, 94%)
-hsl(245, 75%, 52%)
-
-
-
- hsl(225, 100%, 98%)
- hsl(224, 23%, 55%)
- hsl(223, 47%, 23%)
-
-}
 button{
     width:85%;
     height:40px;
@@ -109,3 +96,16 @@ button{
     color:hsl(225, 100%, 98%);
     border:none;
 }
+@media screen and (max-width: 1440px) {
+  
+    body{
+        
+        background-image: url(pattern-background-desktop.svg);
+        
+   }}
+
+   @media screen and (max-width: 375px) {
+    body {
+        background-image: url(pattern-background-mobile.svg);
+    }
+  }
